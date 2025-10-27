@@ -149,6 +149,6 @@ fn main() {
 
     // add one line below to make a compiler error: cannot borrow `s` as mutable more than once at a time
     // you can't use r1 and r2 at the same time
-    println!("{}, {}", r1, r2);
+    println!("{}", r1);
 }
 ```
